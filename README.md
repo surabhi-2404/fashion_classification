@@ -1,175 +1,159 @@
-Fashion MNIST Classifier (Basic Neural Network Version)
+# *Fashion MNIST Classifier (Basic Neural Network Version)*
 
-Description
+## Description
 
 This project builds a basic fully connected neural network to classify clothing images from the Fashion MNIST dataset. It is a beginner-friendly 
 implementation that focuses on understanding neural network fundamentals.
 
-Objective
+## Objective
 
-To learn:
-Basics of neural networks
-Image normalization
-Label encoding
-Model training and evaluation
-Accuracy visualization
+To learn:<br>
+Basics of neural networks<br>
+Image normalization<br>
+Label encoding<br>
+Model training and evaluation<br>
+Accuracy visualization<br>
 
-Features
+## Features
 
-Dataset loading
-Pixel normalization
-One-hot encoding labels
-Simple neural network model
-Training visualization graphs
-Model evaluation on test data
+Dataset loading<br>
+Pixel normalization<br>
+One-hot encoding labels<br>
+Simple neural network model<br>
+Training visualization graphs<br>
+Model evaluation on test data<br>
 
-Tech Stack
+## Tech Stack
 
-Python
-TensorFlow / Keras
-NumPy
-Matplotlib
+Python<br>
+TensorFlow / Keras<br>
+NumPy<br>
+Matplotlib<br>
 
-Dataset
+## Dataset
 
-Fashion MNIST dataset contains grayscale images of:
-Shirts
-Shoes
-Bags
-Dresses
-Coats
-etc.
+Fashion MNIST dataset contains grayscale images of:<br>
+Shirts<br>
+Shoes<br>
+Bags<br>
+Dresses<br>
+Coats<br>
 
-Installation
-pip install tensorflow matplotlib numpy
+## Usage
 
-Run notebook:
+Open notebook.<br>
+Run all cells.<br>
+Model trains and displays performance graphs<br>
+Final test accuracy is printed.<br>
 
-jupyter notebook
+## Model Architecture
 
-Usage
+Structure:<br>
+Flatten layer<br>
+Dense(128, ReLU)<br>
+Dense(64, ReLU)<br>
+Output layer (Softmax – 10 classes)<br>
+Optimizer: SGD<br>
+Loss: Categorical Crossentropy<br>
 
-Open notebook.
-Run all cells.
-Model trains and displays performance graphs
-Final test accuracy is printed.
+## Results
 
-Model Architecture
+Outputs include:<br>
+Training accuracy graph<br>
+Validation accuracy graph<br>
+Final test accuracy<br>
 
-Structure:
-Flatten layer
-Dense(128, ReLU)
-Dense(64, ReLU)
-Output layer (Softmax – 10 classes)
-Optimizer: SGD
-Loss: Categorical Crossentropy
+## Future Improvements
 
-Results
+Replace DNN with CNN<br>
+Add dropout<br>
+Use Adam optimizer<br>
+Add confusion matrix<br>
 
-Outputs include:
-Training accuracy graph
-Validation accuracy graph
-Final test accuracy
+## Author
 
-Future Improvements
-
-Replace DNN with CNN
-Add dropout
-Use Adam optimizer
-Add confusion matrix
-
-Author
-
-Surabhi
+Surabhi<br>
 Aspiring Data Scientist
 
 
-Fashion MNIST Classifier (Deep Neural Network Version)
+# Fashion MNIST Classifier (Deep Neural Network Version)
 
-📖 Description
+## Description
 
 This project implements a Deep Neural Network (DNN) to classify clothing images from the Fashion MNIST dataset. The model learns 
 to identify 10 categories such as shirts, shoes, bags, and coats based on grayscale images. The notebook demonstrates a full deep 
 learning workflow including preprocessing, training, validation splitting, callbacks, and performance monitoring.
 
-🎯 Objective
+## Objective
 
-The main aim of this project is to learn:
-Multi-class image classification
-Neural network architecture design
-Model training optimization
-Validation techniques
-Performance monitoring using callbacks
+The main aim of this project is to learn:<br>
+Multi-class image classification<br>
+Neural network architecture design<br>
+Model training optimization<br>
+Validation techniques<br>
+Performance monitoring using callbacks<br>
 
-🚀 Features
+## Features
 
-Dataset loading using Keras datasets
-Data normalization and reshaping
-One-hot encoding labels
-Deep neural network with multiple hidden layers
-TensorBoard logging
-Early stopping to prevent overfitting
-Training/validation split
+Dataset loading using Keras datasets<br>
+Data normalization and reshaping<br>
+One-hot encoding labels<br>
+Deep neural network with multiple hidden layers<br>
+TensorBoard logging<br>
+Early stopping to prevent overfitting<br>
+Training/validation split<br>
 
-🛠️ Tech Stack
+## Tech Stack
 
-Python
-TensorFlow / Keras
-NumPy
-Matplotlib
-Scikit-learn
+Python<br>
+TensorFlow / Keras<br>
+NumPy<br>
+Matplotlib<br>
+Scikit-learn<br>
 
-📂 Dataset
+## Dataset
 
-Dataset used: Fashion MNIST
-It contains:
-60,000 training images
-10,000 testing images
-10 clothing classes
+Dataset used: Fashion MNIST<br>
+It contains:<br>
+60,000 training images<br>
+10,000 testing images<br>
+10 clothing classes<br>
 
-⚙️ Installation
+## Usage
 
-pip install tensorflow matplotlib numpy scikit-learn
+Open notebook.<br>
+Run cells sequentially.<br>
+Model trains automatically.<br>
+Logs are generated for TensorBoard visualization.<br>
 
-Run notebook:
+## Model Architecture
 
-jupyter notebook
+Network structure:<br>
+Flatten layer<br>
+Dense(512)<br>
+Dense(256)<br>
+Dense(128)<br>
+Output layer (Softmax)<br>
+Regularization:<br>
+EarlyStopping callback<br>
+TensorBoard monitoring<br>
 
-▶️ Usage
+## Results
 
-Open notebook.
-Run cells sequentially.
-Model trains automatically.
-Logs are generated for TensorBoard visualization.
+The notebook outputs:<br>
+Training accuracy<br>
+Validation accuracy<br>
+Training logs<br>
+Final evaluation metrics<br>
 
-🧠 Model Architecture
+## Future Improvements
 
-Network structure:
-Flatten layer
-Dense(512)
-Dense(256)
-Dense(128)
-Output layer (Softmax)
-Regularization:
-EarlyStopping callback
-TensorBoard monitoring
+Add dropout layers<br>
+Try CNN architecture<br>
+Hyperparameter tuning<br>
+Model checkpoint saving<br>
 
-📊 Results
+## Author
 
-The notebook outputs:
-Training accuracy
-Validation accuracy
-Training logs
-Final evaluation metrics
-
-📈 Future Improvements
-
-Add dropout layers
-Try CNN architecture
-Hyperparameter tuning
-Model checkpoint saving
-
-👩‍💻 Author
-
-Surabhi
-Deep Learning Learner
+Surabhi<br>
+Aspiring Data Scientist
